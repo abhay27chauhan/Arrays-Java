@@ -3,14 +3,12 @@ import java.util.*;
 class elementExist{
 
     public static boolean elementExist(int[] arr, int data){
-        boolean isExist = false;
         for(int i=0; i<arr.length; i++){
             if(data == arr[i]){
-                isExist = true;
-                break;
+                return true;
             }
         }
-        return isExist;
+        return false;
     }
 
     public static void main(String[] args){
