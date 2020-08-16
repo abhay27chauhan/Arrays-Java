@@ -17,7 +17,7 @@ class ceilFloor{
                 ans[0] = mid;
                 ans[1] =mid;
                 display(ans);
-                break;
+                return;
             }else if(arr[mid]>data){
                 right = mid-1;
             }else{
